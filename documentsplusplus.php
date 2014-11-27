@@ -1,5 +1,6 @@
-<div id='bookmarklet'>
-  <a id="icon" href="javascript:
+<div class='bookmarklet'>
+  <h2>Documents++</h2>
+  <a class="icon" href="javascript:
   (function () {
       var jsCode = document.createElement('script');
       jsCode.setAttribute('src', '//<?php echo $cns; ?>js/bookmarklet.js');
@@ -8,5 +9,5 @@
   ">
     PlusPlus
   </a>
-  <h2>Drag this icon to your bookmarks bar</h2>
+  <p>Drag this icon to your bookmarks bar</p>
 </div>

@@ -10,12 +10,14 @@
 
 	<link rel="icon" type="image/png" href="img/favicon.png">
 
-	<title>Documents++</title>
+	<title>Calibrate Bookmarklets</title>
 </head>
 <body>
 	<div id="wrapper">
-		<h1>Documents++</h1>
-			<?php include 'bookmarklet.php'; ?>
+		<h1>Calibrate Bookmarklets</h1>
+			<?php include 'documentsplusplus.php'; ?>
+			<?php include 'backup.php'; ?>
+			<?php include 'golocal.php'; ?>
 	</div>
 </body>
 </html>

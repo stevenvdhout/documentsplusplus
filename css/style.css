@@ -57,17 +57,17 @@ body {
 h1, h2, h3 { font-family: 'ralewaythin'; }
 h1 { color: #ea4b3a; }
 h2 { color: rgb(8, 214, 187); }
+p { color: rgb(8, 214, 187); }
 
 
 
 #wrapper { width: 620px; margin: 0px auto; padding: 25px; }
-#icon {
+.icon {
   background-color: rgb(8, 214, 187);
-  background-image: url('../img/bookmarklet.png');
-  border-radius: 75px;
-  height: 115px;
-  width: 115px;
-  padding: 20px;
+  background-image: url('../img/logo-small.png');
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
   text-align: center;
   margin: 0 auto 20px;
   display: block;
@@ -95,6 +95,6 @@ h2 { color: rgb(8, 214, 187); }
 
 
 
-#bookmarklet { padding: 100px; text-align: center; }
+.bookmarklet { padding: 20px; text-align: center; float: left;}
 
 
